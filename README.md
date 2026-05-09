@@ -53,7 +53,7 @@ A Streamlit application that uses Google's Gemini AI to convert natural language
 
 Before running the app, you need to create the dummy database.
 
-1. Create a file named `sql.py` (if not already present) with the database creation logic.
+1. Create a file named `sqlite.py` (if not already present) with the database creation logic.
 2. Run the script to generate `student.db`:
 
     ```bash
@@ -67,4 +67,4 @@ Before running the app, you need to create the dummy database.
 Run the Streamlit app:
 
 ```bash
-streamlit run app.p
+streamlit run sql.py
