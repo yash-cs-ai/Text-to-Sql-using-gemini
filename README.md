@@ -57,7 +57,7 @@ Before running the app, you need to create the dummy database.
 2. Run the script to generate `student.db`:
 
     ```bash
-    python sql.py
+    python sqlite.py
     ```
 
     *This will create the `student.db` file with sample data (Name, Class, Section).*
